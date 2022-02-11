@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Sadness extends AppCompatActivity {
+public class WeightQ extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sadness);
+        setContentView(R.layout.activity_weight_q);
 
-        Intent in = getIntent();
+        Intent intent = getIntent();
 
-
-        Button btn = findViewById(R.id.button3);
+        Button btn = findViewById(R.id.button7);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Sadness.this, Appetite.class);
+                Intent in = new Intent(WeightQ.this, Concentration.class);
                 startActivity(in);
             }
         });

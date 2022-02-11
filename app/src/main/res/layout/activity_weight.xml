@@ -4,62 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".Weight">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
-                android:text="5. Feeling Sad:"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Which of the following applies to you?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButton21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not feel sad." />
+                    android:text="Increased Weight" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButton22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad less than half the time" />
-
-                <RadioButton
-                    android:id="@+id/radioButton19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I feel sad more than half the time" />
-
-                <RadioButton
-                    android:id="@+id/radioButton20"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I feel sad nearly all the time" />
+                    android:text="Decreased Weight" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="50dp"
+                    android:padding="10dp"
                     android:text="Next" />
             </RadioGroup>
         </LinearLayout>

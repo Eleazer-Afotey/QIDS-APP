@@ -4,64 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".Interest">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView18"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
-                android:text="5. Feeling Sad:"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="13. General Interest"
+                android:textSize="18dp" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButton51"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not feel sad." />
+                    android:text="There is no change from usual in how interested I am in other people or activities" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButton52"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad less than half the time" />
+                    android:text="I notice that I am less interested in people or activties" />
 
                 <RadioButton
-                    android:id="@+id/radioButton19"
+                    android:id="@+id/radioButton53"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad more than half the time" />
+                    android:text="I find I have interest in only one or two of my formely pursued activities" />
 
                 <RadioButton
-                    android:id="@+id/radioButton20"
+                    android:id="@+id/radioButton54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad nearly all the time" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
-                    android:text="Next" />
+                    android:text="I have virtually no interest in formely pursued activites." />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:padding="10dp"
+                android:text="Next" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

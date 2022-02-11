@@ -4,64 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".Appetite">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:textAlignment="center">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
-                android:text="5. Feeling Sad:"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Which of the following applies to you?" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButtonIncreased"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not feel sad." />
+                    android:text="Increased Appetite" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButtonDecreased"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad less than half the time" />
-
-                <RadioButton
-                    android:id="@+id/radioButton19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I feel sad more than half the time" />
-
-                <RadioButton
-                    android:id="@+id/radioButton20"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I feel sad nearly all the time" />
+                    android:text="Decreased Appetite" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="50dp"
+                    android:padding="15dp"
                     android:text="Next" />
             </RadioGroup>
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
