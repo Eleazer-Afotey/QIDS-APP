@@ -5,63 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".WeightQ">
+    tools:context=".IncWgt">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="395dp"
-                android:layout_height="match_parent"
-                android:padding="15dp"
-                android:text="8. Decreased Weight(Within the Last Two Weeks):"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <RadioButton
-                    android:id="@+id/radioButton31"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I have not had a Change in my weight" />
-
-                <RadioButton
-                    android:id="@+id/radioButton32"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I feel as if I have had a sight weight loss." />
-
-                <RadioButton
-                    android:id="@+id/radioButton33"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I have lost 2 pounds or more" />
-
-                <RadioButton
-                    android:id="@+id/radioButton34"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" I have lost 5 pounds or more" />
-            </RadioGroup>
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="9. Increased Weight (Within the Last Two Weeks):"
                 android:textSize="18dp"
                 android:textStyle="bold" />

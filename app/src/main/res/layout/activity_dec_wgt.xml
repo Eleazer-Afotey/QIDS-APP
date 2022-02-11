@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Thoughts">
+    tools:context=".DecWgt">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -20,12 +22,12 @@
             android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:padding="10dp"
-                android:text="12. Thoughts of Death or Suicide"
+                android:text="8. Decreased Weight (within the last 2 weeks):"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -34,32 +36,32 @@
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton47"
+                    android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not think of suicide or death" />
+                    android:text="0   I have not had a Change in my weight" />
 
                 <RadioButton
-                    android:id="@+id/radioButton48"
+                    android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel that life is empty or wonder if it's worth living." />
+                    android:text="1   I feel as if I have had a sight weight loss." />
 
                 <RadioButton
-                    android:id="@+id/radioButton49"
+                    android:id="@+id/radioButton25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I think of suicide or death several times a week for several minutes" />
+                    android:text="2   I have lost 2 pounds or more" />
 
                 <RadioButton
-                    android:id="@+id/radioButton50"
+                    android:id="@+id/radioButton26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I think of suicide or death several times a day in some detail, or I have made specific plans for suicide or have acutally tried to take my life" />
+                    android:text="3   I have lost 5 pounds or more" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"

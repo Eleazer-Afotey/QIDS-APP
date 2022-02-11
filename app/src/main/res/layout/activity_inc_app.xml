@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AppetiteQ">
+    tools:context=".IncApp">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -17,55 +18,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:orientation="vertical"
-            android:padding="15dp">
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
-                android:text="6. Decreased Appetite"
-                android:textStyle="bold" />
-
-            <RadioGroup
-                android:id="@+id/group1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <RadioButton
-                    android:id="@+id/radioButton23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="There is no change in my usual appetite" />
-
-                <RadioButton
-                    android:id="@+id/radioButton24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I eat somewhat less often or lesser amounts of food than usual" />
-
-                <RadioButton
-                    android:id="@+id/radioButton25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I eat much less than usual and only with personal effort" />
-
-                <RadioButton
-                    android:id="@+id/radioButton26"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I rarely eat within a 24-hour period, and only with extreme personal effort or when others persuade me to eat" />
-
-            </RadioGroup>
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
-                android:text="Increased Appetite"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:text="7. Increased Appetite"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <RadioGroup

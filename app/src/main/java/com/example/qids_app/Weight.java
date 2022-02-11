@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 
 public class Weight extends AppCompatActivity {
 
@@ -16,14 +17,36 @@ public class Weight extends AppCompatActivity {
 
         Intent in = getIntent();
 
-        Button btn = findViewById(R.id.button6);
+        RadioButton inc = findViewById(R.id.radioButton21);
+        RadioButton dec = findViewById(R.id.radioButton22);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+
+        dec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Weight.this, WeightQ.class);
-                startActivity(intent);
+                if(dec.isChecked()){
+                    //intent.putExtra(EXTRA_MESSAGE, "Decreased");
+
+                    Intent intent = new Intent(Weight.this, DecWgt.class);
+                    startActivity(intent);
+                }
             }
         });
+
+
+
+        inc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(inc.isChecked()){
+                    //intent.putExtra(EXTRA_MESSAGE, "Increased");
+                    Intent intent = new Intent(Weight.this, IncWgt.class);
+                    startActivity(intent);
+
+                }
+            }
+        });
+
     }
 }

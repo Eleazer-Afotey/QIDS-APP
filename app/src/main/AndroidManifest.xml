@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qids_app">
+    package="com.example.qids_app" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QIDSAPP">
+        android:theme="@style/Theme.QIDSAPP" >
+        <activity
+            android:name=".DecWgt"
+            android:exported="false" />
+        <activity
+            android:name=".DecApp"
+            android:exported="false" />
         <activity
             android:name=".TotalScore"
             android:exported="false" />
@@ -31,13 +37,13 @@
             android:name=".Concentration"
             android:exported="false" />
         <activity
-            android:name=".WeightQ"
+            android:name=".IncWgt"
             android:exported="false" />
         <activity
             android:name=".Weight"
             android:exported="false" />
         <activity
-            android:name=".AppetiteQ"
+            android:name=".IncApp"
             android:exported="false" />
         <activity
             android:name=".Appetite"
@@ -50,7 +56,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

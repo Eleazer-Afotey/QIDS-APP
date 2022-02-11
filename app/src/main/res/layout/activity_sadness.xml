@@ -23,8 +23,10 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="5. Feeling Sad:"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <RadioGroup

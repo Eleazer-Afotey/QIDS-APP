@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Thoughts">
+    tools:context=".DecApp">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -20,12 +22,12 @@
             android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:padding="10dp"
-                android:text="12. Thoughts of Death or Suicide"
+                android:text="6. Decreased Appetite:"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -34,37 +36,40 @@
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton47"
+                    android:id="@+id/radioButton67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not think of suicide or death" />
+                    android:text="There is no change in my usual appetite" />
 
                 <RadioButton
-                    android:id="@+id/radioButton48"
+                    android:id="@+id/radioButton68"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel that life is empty or wonder if it's worth living." />
+                    android:text="I eat somewhat less often or lesser amounts of food than usual" />
 
                 <RadioButton
-                    android:id="@+id/radioButton49"
+                    android:id="@+id/radioButton69"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I think of suicide or death several times a week for several minutes" />
+                    android:text="I eat much less than usual and only with personal effort" />
 
                 <RadioButton
-                    android:id="@+id/radioButton50"
+                    android:id="@+id/radioButton70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I think of suicide or death several times a day in some detail, or I have made specific plans for suicide or have acutally tried to take my life" />
+                    android:text="I rarely eat within a 24-hour period, and only with extreme personal effort or when others persuade me to eat" />
+
             </RadioGroup>
 
             <Button
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
+                android:id="@+id/button14"
+                android:layout_width="237dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
+                android:padding="10dp"
                 android:text="Next" />
 
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
