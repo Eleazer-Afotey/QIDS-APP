@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_apetite.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/activity_appetite_q.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/activity_concentration.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_energy.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_interest.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_myself.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_sadness.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sleep.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_slowed_down.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_thoughts.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_total_score.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_weight.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/activity_weight_q.xml" value="0.21302083333333333" />
       </map>
     </option>
   </component>

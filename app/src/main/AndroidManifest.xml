@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QIDSAPP">
         <activity
+            android:name=".TotalScore"
+            android:exported="false" />
+        <activity
+            android:name=".SlowedDown"
+            android:exported="false" />
+        <activity
+            android:name=".Energy"
+            android:exported="false" />
+        <activity
+            android:name=".Interest"
+            android:exported="false" />
+        <activity
+            android:name=".Thoughts"
+            android:exported="false" />
+        <activity
+            android:name=".Myself"
+            android:exported="false" />
+        <activity
+            android:name=".Concentration"
+            android:exported="false" />
+        <activity
+            android:name=".WeightQ"
+            android:exported="false" />
+        <activity
+            android:name=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".AppetiteQ"
+            android:exported="false" />
+        <activity
+            android:name=".Appetite"
+            android:exported="false" />
+        <activity
             android:name=".Sadness"
             android:exported="false" />
         <activity

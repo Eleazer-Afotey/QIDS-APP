@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlowedDown">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="15. Feeling Slowed Down"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 I think, speak, and move at my usual  rate of speed" />
+
+                <RadioButton
+                    android:id="@+id/radioButton60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 I find that my thinking is slowed down or my voice sounds dull or flat" />
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 It takes me several seconds to respond to most questions and I'm sure my thinking is slowed." />
+
+                <RadioButton
+                    android:id="@+id/radioButton62"
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:text="3 I am often unable to respond to questions without extreme efforts. " />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="16. Feeling RestLess"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 I do feel restless" />
+
+                <RadioButton
+                    android:id="@+id/radioButton64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 I'm often fidgety, wringing my hands  or need to shift how I am sitting" />
+
+                <RadioButton
+                    android:id="@+id/radioButton65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2   I have impulses to move  about and I'm quite restless" />
+
+                <RadioButton
+                    android:id="@+id/radioButton66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3   At times I'm able to stay seated and I need to pace around." />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:padding="10dp"
+                android:text="Submit." />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

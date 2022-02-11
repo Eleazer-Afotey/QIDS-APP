@@ -4,27 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".Thoughts">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:padding="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView17"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
-                android:text="5. Feeling Sad:"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="12. Thoughts of Death or Suicide"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -32,36 +30,38 @@
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButton47"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not feel sad." />
+                    android:text="I do not think of suicide or death" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButton48"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad less than half the time" />
+                    android:text="I feel that life is empty or wonder if it's worth living." />
 
                 <RadioButton
-                    android:id="@+id/radioButton19"
+                    android:id="@+id/radioButton49"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad more than half the time" />
+                    android:text="I think of suicide or death several times a week for several minutes" />
 
                 <RadioButton
-                    android:id="@+id/radioButton20"
+                    android:id="@+id/radioButton50"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad nearly all the time" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
-                    android:text="Next" />
+                    android:text="I think of suicide or death several times a day in some detail, or I have made specific plans for suicide or have acutally tried to take my life" />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:padding="10dp"
+                android:text="Next" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

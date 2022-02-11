@@ -22,6 +22,7 @@ public class Sleep extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Sleep.this, Sadness.class);
+                startActivity(intent);
             }
         });
 
