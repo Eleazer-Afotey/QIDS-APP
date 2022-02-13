@@ -38,25 +38,25 @@
                     android:id="@+id/radioButton35"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have not had a change in my weight" />
+                    android:text="0   I have not had a change in my weight" />
 
                 <RadioButton
                     android:id="@+id/radioButton36"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel as if I have had a slight weight gain." />
+                    android:text="1   I feel as if I have had a slight weight gain." />
 
                 <RadioButton
                     android:id="@+id/radioButton37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have gained 2 pounds or more." />
+                    android:text="2   I have gained 2 pounds or more." />
 
                 <RadioButton
                     android:id="@+id/radioButton38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have gained 5 pounds or more" />
+                    android:text="3   I have gained 5 pounds or more" />
             </RadioGroup>
 
             <Button

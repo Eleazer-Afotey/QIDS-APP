@@ -39,25 +39,25 @@
                     android:id="@+id/radioButton67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change in my usual appetite" />
+                    android:text="0   There is no change in my usual appetite" />
 
                 <RadioButton
                     android:id="@+id/radioButton68"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I eat somewhat less often or lesser amounts of food than usual" />
+                    android:text="1   I eat somewhat less often or lesser amounts of food than usual" />
 
                 <RadioButton
                     android:id="@+id/radioButton69"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I eat much less than usual and only with personal effort" />
+                    android:text="2   I eat much less than usual and only with personal effort" />
 
                 <RadioButton
                     android:id="@+id/radioButton70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I rarely eat within a 24-hour period, and only with extreme personal effort or when others persuade me to eat" />
+                    android:text="3   I rarely eat within a 24-hour period, and only with extreme personal effort or when others persuade me to eat" />
 
             </RadioGroup>
 

@@ -37,25 +37,25 @@
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I do not feel sad." />
+                    android:text="0   I do not feel sad." />
 
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad less than half the time" />
+                    android:text="1   I feel sad less than half the time" />
 
                 <RadioButton
                     android:id="@+id/radioButton19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad more than half the time" />
+                    android:text="2   I feel sad more than half the time" />
 
                 <RadioButton
                     android:id="@+id/radioButton20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I feel sad nearly all the time" />
+                    android:text="3   I feel sad nearly all the time" />
 
                 <Button
                     android:id="@+id/button3"

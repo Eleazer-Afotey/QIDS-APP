@@ -37,25 +37,25 @@
                     android:id="@+id/radioButton51"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change from usual in how interested I am in other people or activities" />
+                    android:text="0   There is no change from usual in how interested I am in other people or activities" />
 
                 <RadioButton
                     android:id="@+id/radioButton52"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I notice that I am less interested in people or activties" />
+                    android:text="1   I notice that I am less interested in people or activties" />
 
                 <RadioButton
                     android:id="@+id/radioButton53"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I find I have interest in only one or two of my formely pursued activities" />
+                    android:text="2   I find I have interest in only one or two of my formely pursued activities" />
 
                 <RadioButton
                     android:id="@+id/radioButton54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have virtually no interest in formely pursued activites." />
+                    android:text="3   I have virtually no interest in formely pursued activites." />
             </RadioGroup>
 
             <Button

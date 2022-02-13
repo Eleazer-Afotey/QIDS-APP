@@ -37,25 +37,25 @@
                     android:id="@+id/radioButton55"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change in my usual level of energy." />
+                    android:text="0   There is no change in my usual level of energy." />
 
                 <RadioButton
                     android:id="@+id/radioButton56"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I got tired more easily than usual." />
+                    android:text="1   I got tired more easily than usual." />
 
                 <RadioButton
                     android:id="@+id/radioButton57"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have to make a big effort to start or finish my usual daily activities (from example, shopping, homework, cooking, or going to work)." />
+                    android:text="2   I have to make a big effort to start or finish my usual daily activities (from example, shopping, homework, cooking, or going to work)." />
 
                 <RadioButton
                     android:id="@+id/radioButton58"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I really cannot carry out most of my usual daily activities beacuse I just don't have the energy." />
+                    android:text="3   I really cannot carry out most of my usual daily activities beacuse I just don't have the energy." />
             </RadioGroup>
 
             <Button

@@ -38,25 +38,25 @@
                     android:id="@+id/radioButton39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change in my ususal capacity to concentrate or make decisions" />
+                    android:text="0   There is no change in my ususal capacity to concentrate or make decisions" />
 
                 <RadioButton
                     android:id="@+id/radioButton40"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I occasionally feel indecisive or find that my attention wanders" />
+                    android:text="1   I occasionally feel indecisive or find that my attention wanders" />
 
                 <RadioButton
                     android:id="@+id/radioButton41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Most of the time, I struggle to focus my attention or to make decisions" />
+                    android:text="2   Most of the time, I struggle to focus my attention or to make decisions" />
 
                 <RadioButton
                     android:id="@+id/radioButton42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I cannot concentrate well enough to read or cannot make even mirror decisions" />
+                    android:text="3   I cannot concentrate well enough to read or cannot make even mirror decisions" />
             </RadioGroup>
 
             <Button
