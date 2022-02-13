@@ -8,19 +8,23 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="15. Feeling Slowed Down"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -58,8 +62,8 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="16. Feeling RestLess"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -98,7 +102,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
-                android:padding="10dp"
                 android:text="Submit." />
 
         </LinearLayout>

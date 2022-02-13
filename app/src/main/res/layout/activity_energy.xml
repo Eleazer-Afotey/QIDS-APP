@@ -8,19 +8,23 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="14. Energy Level:"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -33,25 +37,25 @@
                     android:id="@+id/radioButton55"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change in my usual level of energy." />
+                    android:text="0   There is no change in my usual level of energy." />
 
                 <RadioButton
                     android:id="@+id/radioButton56"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I got tired more easily than usual." />
+                    android:text="1   I got tired more easily than usual." />
 
                 <RadioButton
                     android:id="@+id/radioButton57"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I have to make a big effort to start or finish my usual daily activities (from example, shopping, homework, cooking, or going to work)." />
+                    android:text="2   I have to make a big effort to start or finish my usual daily activities (from example, shopping, homework, cooking, or going to work)." />
 
                 <RadioButton
                     android:id="@+id/radioButton58"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I really cannot carry out most of my usual daily activities beacuse I just don't have the energy." />
+                    android:text="3   I really cannot carry out most of my usual daily activities beacuse I just don't have the energy." />
             </RadioGroup>
 
             <Button
@@ -59,7 +63,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
-                android:padding="10dp"
                 android:text="Next" />
 
         </LinearLayout>

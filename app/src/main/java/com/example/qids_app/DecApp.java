@@ -7,23 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Energy extends AppCompatActivity {
+public class DecApp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_energy);
+        setContentView(R.layout.activity_dec_app);
 
-        Intent in = getIntent();
+        Intent intent = getIntent();
 
-        Button btn = findViewById(R.id.button12);
-
+        Button btn = findViewById(R.id.button14);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Energy.this, SlowedDown.class);
+                Intent in = new Intent(DecApp.this, Weight.class);
                 startActivity(in);
-
             }
         });
     }

@@ -8,22 +8,27 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
-                android:text="10. Concentration / Decision Making: " />
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:text="10. Concentration / Decision Making: "
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -33,25 +38,25 @@
                     android:id="@+id/radioButton39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="There is no change in my ususal capacity to concentrate or make decisions" />
+                    android:text="0   There is no change in my ususal capacity to concentrate or make decisions" />
 
                 <RadioButton
                     android:id="@+id/radioButton40"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I occasionally feel indecisive or find that my attention wanders" />
+                    android:text="1   I occasionally feel indecisive or find that my attention wanders" />
 
                 <RadioButton
                     android:id="@+id/radioButton41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Most of the time, I struggle to focus my attention or to make decisions" />
+                    android:text="2   Most of the time, I struggle to focus my attention or to make decisions" />
 
                 <RadioButton
                     android:id="@+id/radioButton42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I cannot concentrate well enough to read or cannot make even mirror decisions" />
+                    android:text="3   I cannot concentrate well enough to read or cannot make even mirror decisions" />
             </RadioGroup>
 
             <Button
@@ -59,7 +64,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
-                android:padding="10dp"
                 android:text="Next" />
 
         </LinearLayout>

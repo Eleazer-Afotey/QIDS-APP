@@ -10,40 +10,50 @@ import android.widget.RadioButton;
 
 public class Appetite extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE = "secure message";
-    public String appetiteLevel;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apetite);
 
+        RadioButton dec = findViewById(R.id.radioButtonDecreased);
+        RadioButton inc = findViewById(R.id.radioButtonIncreased);
+
         Intent intent = getIntent();
 
-        Button btn = findViewById(R.id.button4);
-
-
-
-        btn.setOnClickListener(new View.OnClickListener() {
+        dec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Appetite.this, AppetiteQ.class);
-                RadioButton dec = findViewById(R.id.radioButtonDecreased);
-                RadioButton inc = findViewById(R.id.radioButtonIncreased);
 
-                if(dec.isChecked()){
-                    intent.putExtra(EXTRA_MESSAGE, "Decreased");
+
+                if (dec.isChecked()) {
+                    //intent.putExtra(EXTRA_MESSAGE, "Decreased");
+
+                    Intent in = new Intent(Appetite.this, DecApp.class);
+                    startActivity(in);
                 }
 
-                if(inc.isChecked()){
-                    intent.putExtra(EXTRA_MESSAGE, "Increased");
-                }
-
-
-
-                startActivity(in);
             }
         });
+
+
+        inc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (inc.isChecked()) {
+                    //intent.putExtra(EXTRA_MESSAGE, "Increased");
+                    Intent in = new Intent(Appetite.this, IncApp.class);
+                    startActivity(in);
+
+                }
+
+            }
+        });
+
 
     }
 }

@@ -4,28 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".DecWgt">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:padding="10dp"
-                android:text="5. Feeling Sad:"
+                android:text="8. Decreased Weight (within the last 2 weeks):"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -34,36 +36,37 @@
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0   I do not feel sad." />
+                    android:text="0   I have not had a Change in my weight" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1   I feel sad less than half the time" />
+                    android:text="1   I feel as if I have had a sight weight loss." />
 
                 <RadioButton
-                    android:id="@+id/radioButton19"
+                    android:id="@+id/radioButton25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2   I feel sad more than half the time" />
+                    android:text="2   I have lost 2 pounds or more" />
 
                 <RadioButton
-                    android:id="@+id/radioButton20"
+                    android:id="@+id/radioButton26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3   I feel sad nearly all the time" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
-                    android:text="Next" />
+                    android:text="3   I have lost 5 pounds or more" />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:text="Next" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

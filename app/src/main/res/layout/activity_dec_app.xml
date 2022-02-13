@@ -4,28 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sadness">
+    tools:context=".DecApp">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView25"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:padding="10dp"
-                android:text="5. Feeling Sad:"
+                android:text="6. Decreased Appetite:"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -34,36 +36,40 @@
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButton67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0   I do not feel sad." />
+                    android:text="0   There is no change in my usual appetite" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButton68"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1   I feel sad less than half the time" />
+                    android:text="1   I eat somewhat less often or lesser amounts of food than usual" />
 
                 <RadioButton
-                    android:id="@+id/radioButton19"
+                    android:id="@+id/radioButton69"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2   I feel sad more than half the time" />
+                    android:text="2   I eat much less than usual and only with personal effort" />
 
                 <RadioButton
-                    android:id="@+id/radioButton20"
+                    android:id="@+id/radioButton70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3   I feel sad nearly all the time" />
+                    android:text="3   I rarely eat within a 24-hour period, and only with extreme personal effort or when others persuade me to eat" />
 
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
-                    android:text="Next" />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:padding="10dp"
+                android:text="Next" />
+
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

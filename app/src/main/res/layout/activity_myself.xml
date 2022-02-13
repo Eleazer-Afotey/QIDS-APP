@@ -9,20 +9,22 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
                 android:text="11. View of Myself"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -35,25 +37,25 @@
                     android:id="@+id/radioButton43"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I see myself as equally worthwhile and deserving as other people" />
+                    android:text="0   I see myself as equally worthwhile and deserving as other people" />
 
                 <RadioButton
                     android:id="@+id/radioButton44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I am more self-blaming than usual" />
+                    android:text="1   I am more self-blaming than usual" />
 
                 <RadioButton
                     android:id="@+id/radioButton45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I largely believe that Icause problems for others" />
+                    android:text="2   I largely believe that Icause problems for others" />
 
                 <RadioButton
                     android:id="@+id/radioButton46"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I think almost constantly about major and minor defects in myself" />
+                    android:text="3   I think almost constantly about major and minor defects in myself" />
             </RadioGroup>
 
             <Button
@@ -61,7 +63,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
-                android:padding="10dp"
                 android:text="Next" />
 
         </LinearLayout>

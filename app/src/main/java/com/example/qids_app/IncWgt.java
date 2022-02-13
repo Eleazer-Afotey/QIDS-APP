@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class WeightQ extends AppCompatActivity {
+public class IncWgt extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class WeightQ extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(WeightQ.this, Concentration.class);
+                Intent in = new Intent(IncWgt.this, Concentration.class);
                 startActivity(in);
             }
         });
