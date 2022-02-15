@@ -16,5 +16,9 @@ public class TotalScore extends AppCompatActivity {
         Intent in = getIntent();
 
         TextView score = findViewById(R.id.textView23);
+        TextView value = findViewById(R.id.textView13);
+
+        String total = in.getStringExtra(SlowedDown.SECURE_VALUE);
+        value.setText(total);
     }
 }

@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 
 public class Appetite extends AppCompatActivity {
+    public static final String APPETITE = "APPETITE";
 
 
 
@@ -22,7 +24,7 @@ public class Appetite extends AppCompatActivity {
         RadioButton dec = findViewById(R.id.radioButtonDecreased);
         RadioButton inc = findViewById(R.id.radioButtonIncreased);
 
-        Intent intent = getIntent();
+        Intent intentRetrieved = getIntent();
 
         dec.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,9 +32,12 @@ public class Appetite extends AppCompatActivity {
 
 
                 if (dec.isChecked()) {
-                    //intent.putExtra(EXTRA_MESSAGE, "Decreased");
 
+                    int sum_val = Integer.parseInt(intentRetrieved.getStringExtra(Sadness.SADNESS_SCORE));
+                    String send = sum_val + "";
                     Intent in = new Intent(Appetite.this, DecApp.class);
+                    in.putExtra(APPETITE,send);
+
                     startActivity(in);
                 }
 
@@ -45,8 +50,12 @@ public class Appetite extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (inc.isChecked()) {
-                    //intent.putExtra(EXTRA_MESSAGE, "Increased");
+                    int sum_val = Integer.parseInt(intentRetrieved.getStringExtra(Sadness.SADNESS_SCORE));
+                    String send = sum_val + "";
                     Intent in = new Intent(Appetite.this, IncApp.class);
+                    in.putExtra(APPETITE,send);
+
+
                     startActivity(in);
 
                 }
