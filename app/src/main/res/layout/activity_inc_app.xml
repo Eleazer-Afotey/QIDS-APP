@@ -31,7 +31,7 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:id="@+id/group2"
+                android:id="@+id/g7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
